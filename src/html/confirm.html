@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>确认订单</title>
+	<script src="/lib/requirejs/require.js" data-main="/js/confirm"></script>
+	<link rel="stylesheet" type="text/css" href="/css/confirm.css">
+</head>
+<body>
+	<div class="header"></div>
+	<div class="tx">填写并核对订单信息</div>
+	<div class="message">
+		<p>收货人信息</p>
+		<div class="k1">
+			<div class="username"><i>收货人姓名</i><input type="text" name=""></div>
+			<div class="area"><i>所在地区</i><select id="prov"></select>&nbsp;&nbsp;<select id="city"></select></div>
+			<div class="adress"><i>收货地址</i><input type="text" placeholder="街道地址"></div>
+			<div class="bm"><i>邮政编码</i><input type="text"></div>
+			<div class="phone"><i>手机号码</i><input type="text" class="tel">或固定电话<input type="text" class="vv1">-<input type="text" class="vv2">-<input type="text" class="vv3">电话号码或者手机至少填一个
+			</div>
+			<div class="email"><i>邮箱</i><input type="text">用来接收订单提醒邮箱</div>
+			<div class="check"><input type="checkbox" checked="checked" >添加为常用收件地址</div>
+			<div class="bc">确定</div>
+		</div>
+		<div class="ttt">
+			<div class="pay">您总共消费<span></span>元</div>
+			<div class="confirm">确认购买</div>
+			<div class="qx">取消</div>
+		</div>
+	</div>
+
+
+	<div class="footer"></div>
+	
+</body>
+</html>

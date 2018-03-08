@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<link rel="stylesheet" href="css/index.css">
+	<script src="lib/requirejs/require.js" data-main="js/index"></script>
+</head>
+<body>
+	<div class="header"></div>
+
+	<div class="lb"></div>
+	<div class="tj">
+		<p>人气推荐单品</p>
+		<p>POPULAR RECOMMENDATION</p>
+	</div>
+	<div class="ff">
+		
+	</div>
+
+	<div class="shyp">
+		<div class="ypt">
+			<div class="ys">生活日用</div>
+			<div><a href="">More></a></div>
+		</div>
+		<div class="ypb">
+			<div class="ypb1">
+				<ul>
+					<li><a href="">厨具</a></li>
+					<li><a href="">摆件</a></li>
+					<li><a href="">茶具</a></li>
+					<li><a href="">床品</a></li>
+					<li><a href="">酒具</a></li>
+					<li><a href="">收纳</a></li>
+					<li><a href="">水具</a></li>
+					<li><a href="">清洁</a></li>
+					<li><a href="">电器</a></li>
+					<li><a href="">保温杯</a></li>
+				</ul>
+			</div>
+			<div class="ypb2">
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="footer"></div>
+	<script type="text/html" id="list_template">
+		{{each products as product}}
+		<div class="box">
+			<img src="{{product.img}}" class="img">
+			<div class="title">{{product.title}}</div>
+			<div class="price">{{product.price}}</div>
+			<div class="ys">{{product.ys}}</div>
+		</div>
+		{{/each}}
+	</script>
+	<script type="text/html" id="gll">
+		{{each tt as product}}
+		<div class="box">
+			<img src="{{product.img}}" class="img">
+			<div class="title">{{product.title}}</div>
+			<div class="price">{{product.price}}</div>
+			<div class="ys">{{product.ys}}</div>
+		</div>
+		{{/each}}
+	</script>
+
+</body>
+</html>

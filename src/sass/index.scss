@@ -1,0 +1,229 @@
+.lb{
+	width:1202px;
+	height: 430px;
+	margin:0 auto;
+	margin-top: 14px;
+	/*background-color: pink;*/
+}
+.tj{
+	width: 202px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 58px ;
+	margin-bottom: 40px;
+	text-align: center;
+	p{
+		&:nth-child(1){
+			width: 202px;
+			height: 30px;
+			font-size: 22px;
+			font-weight: bolder;
+			border-bottom: 1px solid #c5c5c5;
+		};
+		&:nth-child(2){
+			font-size: 12px;
+			color: #c5c5c5;
+		};
+	}
+}
+.ff{
+	width: 1263px;
+	height: 340px;
+	display: flex;
+	justify-content: space-around;
+	/*div{
+		float: left;
+		width: 270px;
+		height: 340px;
+		border:1px solid;
+	}*/
+	.box{
+		width: 270px;
+		height: 340px;
+		border:1px solid #dddddd;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		.img{
+			width: 230px;
+			height: 230px;
+		}
+		.title{
+			color: black; 
+			font-weight:bold;
+			text-align: center;
+		}
+		.price{
+			color: red;
+			float: left;
+			font-weight: bold;
+		}
+		.ys{
+			float: right;
+		}
+		
+	}
+}
+.shyp{
+	height: 724px;
+	width: 1202px;
+	margin: 0 auto;
+	margin-top: 84px;
+	.ypt{
+		height: 42px;
+		display: flex;
+		justify-content: space-between;
+		border-bottom: 4px solid #f3d527;
+		.ys{
+			font-size: 22px;
+			color: #f3d527;
+		}
+	}
+	.ypb{
+		height: 682px;
+		.ypb1{
+			width: 240px;
+			height: 682px;
+			float: left;
+			background: url(../images/daily-left.jpg);
+			ul{
+				/*width: 214px;*/
+				/*height:245px;*/
+				margin-top: 32px;
+				margin-left:26px;
+				display: flex;
+				justify-content: space-around;
+				flex-wrap: wrap;
+				li{
+					width: 102px;
+					height: 48px;
+					text-align: center;
+					line-height: 48px;
+					a{
+						color:#f3d527;
+						display: block;
+						height: 48px;
+						width: 102px;
+					}
+					&:nth-child(1){
+						background: url(../images/cj.png) no-repeat left center;
+					};
+					&:nth-child(2){
+						background: url(../images/bj.png) no-repeat left center;
+					};
+					&:nth-child(3){
+						background: url(../images/cha-ju.png) no-repeat left center;
+					};
+					&:nth-child(4){
+						background: url(../images/cp.png) no-repeat left center;
+					};
+					&:nth-child(5){
+						background: url(../images/jiu-ju.png) no-repeat left center;
+					};
+					&:nth-child(6){
+						background: url(../images/sn.png) no-repeat left center;
+					};
+					&:nth-child(7){
+						background: url(../images/shui-ju.png) no-repeat left center;
+					};
+					&:nth-child(8){
+						background: url(../images/qjws.png) no-repeat left center;
+					};
+					&:nth-child(9){
+						background: url(../images/shdq.png) no-repeat left center;
+					};
+					&:nth-child(10){
+						background: url(../images/bwb.png) no-repeat left center;
+					};
+				}
+			}
+		}
+		.ypb2{
+			width: 962px;
+			float: left;
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			/*div{
+				width:25%;
+				height: 341px;
+				border-bottom: 1px solid #d2d2d2;
+				border-right: 1px solid #d2d2d2;
+
+			}*/
+			.box{
+				width: 240.5px;
+				height: 341px;
+				border-right: 1px solid #d2d2d2;
+				border-bottom: 1px solid #d2d2d2;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				.img{
+					width: 230px;
+					height: 230px;
+				}
+				.title{
+					color: black; 
+					font-weight:bold;
+					text-align: center;
+				}
+				.price{
+					color: red;
+					float: left;
+					font-weight: bold;
+				}
+				.ys{
+					float: right;
+				}
+		
+			}
+		}
+	}
+}
+.xm_carousel_container {
+	position: relative;
+}
+
+.xm_carousel_container .imgs {
+	list-style: none;
+}
+.xm_carousel_container .pages {
+	height: 30px;
+	position: absolute;
+	bottom:0;
+	left: 600px;
+	width: 126px;
+	margin: 0 auto;
+	/*background: #000;*/
+}
+.xm_carousel_container .pages i {
+	width:22px;
+	height: 5px;
+	background: white;
+	display: inline-block;
+	margin:10px;
+}
+.xm_carousel_container .pages i.current {
+	background: #f00;
+}
+
+/*.xm_carousel_container .prev, .next {
+	width:45px;
+	height: 100px;
+	background: #000;
+	color:#fff;
+	text-align: center;
+	line-height: 100px;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	margin:auto;
+	font-size: 20px;
+}
+.xm_carousel_container .next {
+	right:0; 
+}*/

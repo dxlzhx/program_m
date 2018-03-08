@@ -1,0 +1,25 @@
+require(["config"],function(){
+	require(["jquery"],function($){
+		$(".sr").on("blur",function(){
+			if(!/^[a-z0-9]+([._\\-]*[a-z0-9])*@([a-z0-9]+[-a-z0-9]*[a-z0-9]+.){1,63}[a-z0-9]+$/.test($(this).val())){
+				$(".info1").html("邮箱格式有误");
+			}else{
+				$(".info1").html("格式正确");
+			}
+		});
+		$(".kop").on("blur",function(){
+			if(!/^[a-z][a-z0-9]{6,12}$/.test($(this).val())){
+				$(".info2").html("密码格式有误");
+			}else{
+				$(".info2").html("格式正确");
+			}
+		});
+		$(".kiu").on("blur",function(){
+			if($(".kop").val()!==$(this).val()){
+				$(".info3").html("错误");
+			}else{
+				$(".info3").html("正确");
+			}
+		});
+	})
+})

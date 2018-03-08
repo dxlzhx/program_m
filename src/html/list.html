@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>列表</title>
+	<script src="/lib/requirejs/require.js" data-main="/js/list"></script>
+	<link rel="stylesheet" type="text/css" href="/css/list.css">
+</head>
+<body>
+	<div class="header"></div>
+
+	<div class="opo"><img src="http://www.isgo.com/assets/images/shry.jpg"></div>
+	<div class="px">
+		<ul>
+			<li><a href="">生活日用</a></li>
+			<li><a href="">健康食品</a></li>
+			<li><a href="">母婴用品</a></li>
+			<li><a href="">时尚臻品</a></li>
+			<li><a href="">智能科技</a></li>
+			<li><a href="">精品套装</a></li>
+			<li><a href="">VIP专区</a></li>
+			
+		</ul>
+		<div class="time"><a href="">发布时间</a></div>
+
+	</div>
+	<div class="cj"><a href="">生活日用</a>><a href="">厨具</a></div>
+	<div class="listsb"></div>
+
+	
+
+	<div class="footer"></div>
+	<script type="text/html" id="xll">
+		{{each ll as product}}
+		<div class="box">
+			<div class="id" style="display:none">{{product.id}}</div>
+			<img src="{{product.img}}" class="img">
+			<div class="title">{{product.title}}</div>
+			<div class="price">{{product.price}}</div>
+			<div class="ys">{{product.ys}}</div>
+			<div class="add_to_cart">加入购物车</div>
+			<img src="{{product.img2}}" class="img2" style="display:none" >
+		</div>
+		{{/each}}
+	</script>
+
+</body>
+</html>

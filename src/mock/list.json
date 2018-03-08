@@ -1,0 +1,36 @@
+{
+	"res_code" : 0,
+	"res_error" : "",
+	"res_body" : {
+		"data" : [
+			{"id":1, "title":"壹芙法甜（Van Evelyne）法国进口纯手工制作马卡龙礼盒", "price":"￥129.00","img":"http://www.isgo.com/userfiles/amber/data/img/product/251/1513221102.png","ys":"已售181件"},
+			{"id":2, "title":"利仁（Liven）不锈钢电热水壶", "price":"￥99.00","img":"http://www.isgo.com/userfiles/amber/data/img/product/316/1512540689.jpg","ys":"已售128件"},
+			{"id":3, "title":"LIVING-TALK ARC 咖啡杯碟套装", "price":"￥138.00","img":"http://www.isgo.com/userfiles/amber/data/img/product/328/1512611284.png","ys":"已售288件"},
+			{"id":4, "title":"虎牌儿童保温保冷吸管杯 MML-C06C 630ML", "price":"￥566.00","img":"http://www.isgo.com/userfiles/amber/data/img/product/311/1512540793.jpg","ys":"已售119件"}
+		],
+		"wzb":[
+			{"id":1, "title":"CoClean 可穿戴净化器 独立版 S1", "price":"￥399.00","img":"http://www.isgo.com/userfiles/amber/data/img/product/259/1512543089.jpg","ys":"已售122件"},
+			{"id":2, "title":"北欧欧慕 nathome 家用迷你电烤箱", "price":"￥238.00","img":"http://www.isgo.com/userfiles/amber/data/img/product/258/1512542962.jpg","ys":"已售217件"},
+			{"id":3, "title":"利仁（Liven）空气炸锅 智能多功能锅", "price":"￥398.00","img":"http://www.isgo.com/userfiles/amber/data/img/product/257/1499238275.jpg","ys":"已售159件"},
+			{"id":4, "title":"美国康宁 耐热玻璃汤锅", "price":"￥379.00","img":"http://www.isgo.com/userfiles/amber/data/img/product/253/1480656704.png","ys":"已售317件"},
+			{"id":5, "title":"德世朗 DFS-TZ102B 铁离子金钢套锅三件套（仅限明火使用）", "price":"￥299.00","img":"http://www.isgo.com/userfiles/amber/data/img/product/255/1512542756.jpg","ys":"已售234件"},
+			{"id":6, "title":"LSA INZA 系列 蓝色天空茶蜡座", "price":"￥730.00","img":"http://www.isgo.com/userfiles/amber/data/img/product/260/1512544009.jpg","ys":"已售136件"},
+			{"id":7, "title":"膳魔师(THERMOS) 不锈钢保温杯", "price":"￥259.00","img":"http://www.isgo.com/userfiles/amber/data/img/product/254/1512543900.jpg","ys":"已售166件"},
+			{"id":8, "title":"德世朗 铭爵套装", "price":"￥189.00","img":"http://www.isgo.com/userfiles/amber/data/img/product/256/1484878499.png","ys":"已售125件"}
+		],
+		"lcy":[
+			{"id":1, "title":"CoClean 可穿戴净化器 独立版 S1", "price":"399.00","img":"http://www.isgo.com/userfiles/amber/data/img/product/259/1512543089.jpg","ys":"已售122件","img2":"http://www.isgo.com/userfiles/product/img/20161114/base/1479112568499.jpg"},
+			{"id":2, "title":"北欧欧慕 nathome 家用迷你电烤箱", "price":"238.00","img":"http://www.isgo.com/userfiles/amber/data/img/product/258/1512542962.jpg","ys":"已售217件","img2":"http://www.isgo.com/userfiles/product/img/20170626/base/1498445225759.jpg"},
+			{"id":3, "title":"利仁（Liven）空气炸锅 智能多功能锅", "price":"398.00","img":"http://www.isgo.com/userfiles/amber/data/img/product/257/1499238275.jpg","ys":"已售159件","img2":"http://www.isgo.com/userfiles/product/img/20170626/base/1498445744240.jpg"},
+			{"id":4, "title":"美国康宁 耐热玻璃汤锅", "price":"379.00","img":"http://www.isgo.com/userfiles/amber/data/img/product/253/1480656704.png","ys":"已售317件","img2":"http://www.isgo.com/userfiles/product/img/20161124/base/1479976646203.jpg"},
+			{"id":5, "title":"德世朗 DFS-TZ102B 铁离子金钢套锅三件套（仅限明火使用）", "price":"299.00","img":"http://www.isgo.com/userfiles/amber/data/img/product/255/1512542756.jpg","ys":"已售234件","img2":"http://www.isgo.com/userfiles/product/img/20170823/base/1503457441646.jpg"},
+			{"id":6, "title":"LSA INZA 系列 蓝色天空茶蜡座", "price":"730.00","img":"http://www.isgo.com/userfiles/amber/data/img/product/260/1512544009.jpg","ys":"已售136件","img2":"http://www.isgo.com/userfiles/product/img/20141110/ext/basePic/14155905805124.jpg"},
+			{"id":7, "title":"膳魔师(THERMOS) 不锈钢保温杯", "price":"259.00","img":"http://www.isgo.com/userfiles/amber/data/img/product/254/1512543900.jpg","ys":"已售166件","img2":"http://www.isgo.com/userfiles/product/img/20160826/ext/basePic/14721897155564.jpg"},
+			{"id":8, "title":"德世朗 铭爵套装", "price":"189.00","img":"http://www.isgo.com/userfiles/amber/data/img/product/256/1484878499.png","ys":"已售125件","img2":"http://www.isgo.com/userfiles/product/img/20161130/base/1480474364866.jpg"},
+			{"id":9, "title":"壹芙法甜（Van Evelyne）法国进口纯手工制作马卡龙礼盒", "price":"129.00","img":"http://www.isgo.com/userfiles/amber/data/img/product/251/1513221102.png","ys":"已售181件","img2":"http://www.isgo.com/userfiles/product/img/20170208/base/1486525364274.jpg"},
+			{"id":10, "title":"利仁（Liven）不锈钢电热水壶", "price":"99.00","img":"http://www.isgo.com/userfiles/amber/data/img/product/316/1512540689.jpg","ys":"已售128件","img2":"http://www.isgo.com/userfiles/product/img/20170626/base/1498445562969.jpg"},
+			{"id":11, "title":"LIVING-TALK ARC 咖啡杯碟套装", "price":"138.00","img":"http://www.isgo.com/userfiles/amber/data/img/product/328/1512611284.png","ys":"已售288件","img2":"http://www.isgo.com/userfiles/product/img/20140905/base/1409882990950.jpg"},
+			{"id":12, "title":"虎牌儿童保温保冷吸管杯 MML-C06C 630ML", "price":"566.00","img":"http://www.isgo.com/userfiles/amber/data/img/product/311/1512540793.jpg","ys":"已售119件","img2":"http://www.isgo.com/userfiles/product/img/20170915/base/1505457752754.jpg"}
+		]
+	}
+}

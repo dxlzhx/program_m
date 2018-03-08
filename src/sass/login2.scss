@@ -1,0 +1,160 @@
+
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, div { margin:0; padding:0; font-size:12px; box-sizing:border-box; }
+
+fieldset, img { border:none; }
+
+img{vertical-align: top;}
+
+em,i,strong,b{ font-style:normal; font-weight:normal; }
+
+ul, ol { list-style:none; } 
+
+a {text-decoration:none; color: black; }
+
+.ind{text-indent: 2em;}
+
+.noborder{border: none;}
+
+.nobg{background:none;}
+
+.floatL{float: left;}
+
+.floatR{float: right;}
+
+.dl{
+	width:870px;
+	height: 460px;
+	margin: 0 auto;
+	margin-top: 40px;
+	overflow: hidden;
+	h1{
+		width: 315px;
+		height: 35px;
+		float: left;
+		a{
+			display: block;
+			width: 315px;
+			height: 35px;
+			background: url(../images/logo.png);
+			span{
+				display: none;
+			}
+		}
+	}
+	.gg{
+		width: 870px;
+		/*height: 337px;*/
+		margin-top: 88px;
+		overflow: hidden;
+		.lf{
+			width: 675px;
+			float: left;
+			/*height: 337px;*/
+			/*background: yellow;*/
+			.mm{
+				width: 675px;
+				height: 40px;
+				.sj{
+					width: 160px;
+					height: 40px;
+					cursor: pointer;
+					float: left;
+					text-align: center;
+					line-height: 40px;
+				}
+				.yx{
+					width: 160px;
+					height: 40px;
+					cursor: pointer;
+					float: left;
+					text-align: center;
+					line-height: 40px;
+					background-color: #4ccdc2;
+					color: white;
+				}
+			}
+			p{
+				margin-top: 54px;
+				font-size: 16px;
+			}
+			.username{
+				width:675px;
+				height: 42px;
+				margin-top: 40px;
+				.g1{
+					width: 120px;
+					height: 42px;
+					float: left;
+					text-align: center;
+					line-height: 42px;
+				}
+				input{
+					width: 227px;
+					height: 33px;
+					float: left;
+				}
+				.info1{
+					float: left;
+					color: red;
+				}
+			}
+			.password{
+				width:675px;
+				height: 42px;
+				.g2{
+					width: 120px;
+					height: 42px;
+					float: left;
+					text-align: center;
+					line-height: 42px;
+				}
+				input{
+					width: 227px;
+					height: 30px;
+					float: left;
+				}
+				.info2{
+					float: left;
+					color:red;
+				}
+			}
+			.check{
+				margin-left: 120px;
+				a{
+					margin-left: 5px;
+				}
+			}
+			.sum{
+				width: 230px;
+				height: 32px;
+				margin-left: 120px;
+				background-color: #4ccdc2;
+				text-align: center;
+				line-height: 32px;
+				cursor: pointer;
+			}
+		}
+		.rgt{
+			width: 195px;
+			float: left;
+			text-align: center;
+			p{
+				font-size: 12px;
+				line-height: 36px;
+				&:nth-child(2){
+					font-size: 17px;
+				};
+			}
+			.gun{
+				width: 120px;
+				height: 30px;
+				color: white;
+				background-color: #4ccdc2;
+				margin:0 auto;
+				text-align: center;
+				cursor: pointer;
+				line-height: 30px;
+			}
+		}
+	}
+}
