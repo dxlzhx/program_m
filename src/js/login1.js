@@ -30,7 +30,7 @@ require(["config"],function(){
 					if(data.showapi_res_body.valid)
 						$(".info2").text("验证成功");
 					else
-						$(".info2").text("输入验证码有误");
+						$(".info2").text("输入的验证码有误");
 				})
 			});
 		});
